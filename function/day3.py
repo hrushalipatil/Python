@@ -28,7 +28,7 @@ print(age)  # [24, 25, 26, 27]
 # LAMBDA
 age_list = lambda age: 2023 - age
 X = list(map(age_list, year))
-print(X)  # [24, 25, 26, 27]
+print(X)  # [24 , 25, 26, 27]
 
 # -------------------------------------------------------
 # revision

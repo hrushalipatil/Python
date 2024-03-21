@@ -68,7 +68,7 @@ vegetables = ["brinjal", "tomato", "potato", "onion"]
 
 # program 5
 
-#            0         1          2        3          4
+#             0         1          2        3          4
 country = ["india", "pakistan", "srilanka", "china", "usa"]
 # print(country)                       # ---   print list   ['india', 'pakistan', 'srilanka', 'china', 'usa']
 # q = len(country)                       # 5
@@ -89,7 +89,7 @@ flowers = ["rose", "lotus", "sunflower", "marrygold"]
 for x in flowers:
     print(x)
 
-# ========in range method========
+# ========in range method ========
 
 for i in range(len(flowers)):
     print(i)
@@ -100,3 +100,5 @@ state = ["MH", "RJ", "MP", "UP", "UK"]
 for x in range(len(state)):
     if x != 2:
         print(state[x])
+
+

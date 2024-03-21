@@ -56,12 +56,12 @@ class Son(Father):
         print(self.sname + self.lastName)
 
 
-chinmay = Son("manohar", "deshpande", "shirsh", "chinmay")
-print(chinmay.firstName)
-print(chinmay.lastName)
-print(chinmay.fName)
-print(chinmay.sname)
+A = Son("naresh", "patil", "vrushali", "moti")
+print(A.firstName)
+print(A.lastName)
+print(A.fName)
+print(A.sname)
 
-chinmay.displaySname()
-chinmay.displayFanme()
-chinmay.displayGname()
+A.displaySname()
+A.displayFanme()
+A.displayGname()

@@ -1,4 +1,3 @@
-
 # program 1
 #
 # class Person:
@@ -41,13 +40,13 @@
 
 
 class BanK:
-    def __init__(self ,accName ,accNo ,bal):
+    def __init__(self, accName, accNo, bal):
         self.accName = accName
         self.accNo = accNo
         self.bal = bal
         self.transactions = []
 
-    def withDrawl(self ,amount):
+    def withDrawl(self, amount):
         if self.bal > amount:
             self.bal = self.bal - amount
             self.transactions.append(-amount)
@@ -55,7 +54,7 @@ class BanK:
             print("insufficient balance")
         return self.bal
 
-    def depsosit(self ,amount):
+    def depsosit(self, amount):
         self.bal = self.bal + amount
         self.transactions.append(amount)
         return self.bal
@@ -63,7 +62,8 @@ class BanK:
     def lastFiveTransactions(self):
         return self.transactions[-5:]
 
-chinmay  =  BanK("chinmay" ,"123" ,10000000)
+
+chinmay = BanK("chinmay", "123", 10000000)
 print(chinmay.withDrawl(10000))
 
 chinmay.depsosit(10000)
@@ -74,10 +74,6 @@ chinmay.depsosit(10)
 chinmay.depsosit(10000)
 chinmay.withDrawl(99)
 print(chinmay.lastFiveTransactions())
-
-
-
-
 
 # class Student:
 #     grade =4

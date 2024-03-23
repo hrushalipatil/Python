@@ -1,4 +1,4 @@
-# program 1
+# # program 1
 # class Student:
 #     def __init__(self):
 #         self.name = "ram"
@@ -28,18 +28,19 @@
 
 class Student:
 
-    def __init__(self,name ,age ,marks):
+    def __init__(self, name, age, marks):
         self.name = name
         self.age = age
         self.marks = marks
 
     def talk(self):
         print("I am ", self.name)
-        print("I am",self.age,"years old")
-        print("I got ",self.marks,"marks")
+        print("I am", self.age, "years old")
+        print("I got ", self.marks, "marks")
 
-amol2 = Student("amol rao",33,55)
-chinmay2 = Student("chinmay deshpande",32,56)
+
+amol2 = Student("amol rao", 33, 55)
+chinmay2 = Student("chinmay deshpande", 32, 56)
 amol2.talk()
 chinmay2.talk()
 
@@ -52,7 +53,7 @@ class Person:
     # class variable
     country = "india"
 
-    def __init__(self,fn,ln,age):
+    def __init__(self, fn, ln, age):
         self.firstName = fn
         self.lastName = ln
         self.age = age
@@ -60,11 +61,11 @@ class Person:
     # instance method (to retrive or update or add instance variable)
 
     # instance method to update firstName
-    def updateFirstName(self,fn):
+    def updateFirstName(self, fn):
         self.firstName = fn
 
     # instance to add city propertu
-    def addCity(self,cy):
+    def addCity(self, cy):
         self.city = cy
 
     # instance method to retrive age
@@ -72,8 +73,9 @@ class Person:
         return self.age
 
     @classmethod
-    def updateCountry(cls,cnty):
+    def updateCountry(cls, cnty):
         Person.country = cnty
+
 
 # a1=Person("vrushali","patil",age=21)
 # a1.updateFirstName("kallooo")    #update
@@ -81,7 +83,7 @@ class Person:
 
 
 Person.updateCountry("bharat")
-amol3 = Person("amol","rao",45)
+amol3 = Person("amol", "rao", 45)
 print(amol3.firstName)
 print(amol3.lastName)
 print(amol3.age)
@@ -89,21 +91,14 @@ print(amol3.country)
 amol3.country = "nepal"
 print(amol3.country)
 
-amol4 = Person("amol","rao",45)
+amol4 = Person("amol", "rao", 45)
 print(amol4.country)
 amol4.country = "srilanka"
 
-amol5 = Person("amol5","rao5","66")
+amol5 = Person("amol5", "rao5", "66")
 Person.updateCountry("pakistan")
 amol5.country = "japan"
 print(amol5.country)
 
-amol6 = Person("amol5","rao5","66")
+amol6 = Person("amol5", "rao5", "66")
 print(amol6.country)
-
-
-
-
-
-
-

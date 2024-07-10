@@ -34,14 +34,12 @@
 # f.close()
 
 # 5
-
-#
 # #copy image file to new file
 # f1 = open("sunset.png", "rb")
 # f2 = open("newsunset.png", "wb")
 #
 # bytes = f1.read()
-# f2.write(bytes)
+ # f2.write(bytes)
 # f2.close()
 # f1.close()
 #
